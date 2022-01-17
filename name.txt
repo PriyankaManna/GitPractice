@@ -1,0 +1,127 @@
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+
+
+
+
+
+
+
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git init
+Initialized empty Git repository in C:/Users/Priyanka/OneDrive/Desktop/Bacancy/Git/.git/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+$ ls .git
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+
