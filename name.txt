@@ -125,3 +125,87 @@ HEAD  config  description  hooks/  info/  objects/  refs/
 Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
 $
 
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git add .
+warning: LF will be replaced by CRLF in name.txt.
+The file will have its original line endings in your working directory
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git restore  --staged name.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git restore  --staged name.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   name.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git add .
+warning: LF will be replaced by CRLF in name.txt.
+The file will have its original line endings in your working directory
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   name.txt
+
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git commit -m "name.txt file modified"
+[main 982bdf5] name.txt file modified
+ 1 file changed, 127 insertions(+)
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git log
+commit 982bdf5c87256256a59c692437f298784762d597 (HEAD -> main)
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:07:22 2022 +0530
+
+    name.txt file modified
+
+commit fb505c5caa9ab1b53b401dd7e692b2a90dcad919
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 17:59:00 2022 +0530
+
+    Initial commit
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ history -w ~/history.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+
