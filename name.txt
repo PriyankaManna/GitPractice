@@ -209,3 +209,220 @@ $ history -w ~/history.txt
 Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
 $
 
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ touch abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ vi abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ rm abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ touch abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ vi abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git add .
+warning: LF will be replaced by CRLF in abc.txt.
+The file will have its original line endings in your working directory
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   abc.txt
+
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git commit -m "abc.txt file added"
+[main cf69ae4] abc.txt file added
+ 1 file changed, 7 insertions(+)
+ create mode 100644 abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ rm abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    abc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git log
+commit cf69ae44b34b74fef7ea3eb92c7eb7cf36d74bf3 (HEAD -> main)
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:55:16 2022 +0530
+
+    abc.txt file added
+
+commit eff85aa4600d5efce0b510f82a897a057e01126e
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:51:33 2022 +0530
+
+    name.txt file modified
+
+commit 982bdf5c87256256a59c692437f298784762d597
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:07:22 2022 +0530
+
+    name.txt file modified
+
+commit fb505c5caa9ab1b53b401dd7e692b2a90dcad919
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 17:59:00 2022 +0530
+
+    Initial commit
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git reset eff85aa4600d5efce0b510f82a897a057e01126e
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git add .
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git add .
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   abc.txt
+
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git commit -m "abc.txt file added"
+[main 687a2ea] abc.txt file added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 abc.txt
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git log
+commit 687a2eaeaf220e0c68e42041fcde7f99fd882665 (HEAD -> main)
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:59:42 2022 +0530
+
+    abc.txt file added
+
+commit eff85aa4600d5efce0b510f82a897a057e01126e
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:51:33 2022 +0530
+
+    name.txt file modified
+
+commit 982bdf5c87256256a59c692437f298784762d597
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:07:22 2022 +0530
+
+    name.txt file modified
+
+commit fb505c5caa9ab1b53b401dd7e692b2a90dcad919
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 17:59:00 2022 +0530
+
+    Initial commit
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    abc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git stash
+Saved working directory and index state WIP on main: 687a2ea abc.txt file added
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git log
+commit 687a2eaeaf220e0c68e42041fcde7f99fd882665 (HEAD -> main)
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:59:42 2022 +0530
+
+    abc.txt file added
+
+commit eff85aa4600d5efce0b510f82a897a057e01126e
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:51:33 2022 +0530
+
+    name.txt file modified
+
+commit 982bdf5c87256256a59c692437f298784762d597
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 18:07:22 2022 +0530
+
+    name.txt file modified
+
+commit fb505c5caa9ab1b53b401dd7e692b2a90dcad919
+Author: MannaPriyanka <mannapriyanka04@gmail.com>
+Date:   Mon Jan 17 17:59:00 2022 +0530
+
+    Initial commit
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git stash pop
+Removing abc.txt
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    abc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (307121d76425fc081a170eb4f29ca7ccd6598ae8)
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git add .
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git stash
+Saved working directory and index state WIP on main: 687a2ea abc.txt file added
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git stash clear
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Priyanka@LAPTOP-6PA766H9 MINGW64 ~/OneDrive/Desktop/Bacancy/Git (main)
+$
+
